@@ -1,0 +1,37 @@
+.green-field {
+	background-color: #00b377;
+	width: 60%;
+	height: 600px;
+	display: inline-block;
+}
+
+.outer-line {
+	background-color: inherit;
+	border: 5px solid #ffffff;
+	margin: 40px;
+	width: 92%;
+	height: 520px;
+	position: relative;
+}
+
+.inner-line-left {
+	background-color: inherit;
+	border: inherit;
+	border-left: 0px;
+	margin-top: 13%;
+	margin-left: 0px;
+	width: 15%;
+	height: 50%;
+	position: relative;
+}
+
+.inner-line-right {
+	background-color: inherit;
+	border: inherit;
+	border-right: 0px;
+	margin-top: -26%;
+	margin-left: 889px;
+	width: 15%;
+	height: 50%;
+	position: relative;
+}
