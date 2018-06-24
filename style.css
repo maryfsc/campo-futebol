@@ -35,3 +35,15 @@
 	height: 50%;
 	position: relative;
 }
+
+.center {
+	background-color: inherit;
+	border: inherit;
+	border-radius: 100px; 
+	width: 180px;
+	height: 180px;
+	display: inline-block;
+	position: relative;
+	bottom: 220px;
+	left: 440px;
+}
