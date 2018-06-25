@@ -49,3 +49,39 @@
 	left: 270px;
 	top: -400px;
 }
+
+.player-one {
+	background-color: #ffffff;
+	border: 1px solid #ffffff;
+	height: 20px;
+	width: 20px;
+	border-radius: 20px;
+	display: inline-block;
+	position: relative;
+	left: 90px;
+	top: -400px;
+}
+
+.player-two {
+   background-color: #ffffff;
+	border: 1px solid #ffffff;
+	height: 20px;
+	width: 20px;
+	border-radius: 20px;
+	display: block;
+	position: relative;
+	left: 150px;
+	top: -300px;
+}
+
+.player-three {
+	background-color: #ffffff;
+	border: 1px solid #ffffff;
+	height: 20px;
+	width: 20px;
+	border-radius: 20px;
+	display: block;
+	position: relative;
+	left: 700px;
+	top: -500px;
+}
