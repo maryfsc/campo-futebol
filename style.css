@@ -2,86 +2,63 @@
 	background-color: #97BB87;
 	width: 60%;
 	height: 600px;
-	display: inline-block;
+	display: flex;
+	justify-content: space-between;
 }
 
-.outer-line {
-	background-color: inherit;
+div.line {
 	border: 5px solid #ffffff;
+}
+
+.outer {
 	margin: 40px;
 	width: 92%;
 	height: 520px;
 	position: relative;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
 }
 
-.inner-line-left {
-	background-color: inherit;
-	border: inherit;
-	border-left: 0px;
+.inner {
 	width: 15%;
 	height: 50%;
-	position: relative;
-	top: 100px;
-	right: 0px;
-	/*left: 0px;*/
 }
 
-.inner-line-right {
-	background-color: inherit;
-	border: inherit;
-	border-right: 0px;
-	width: 15%;
-	height: 50%;
-	position: relative;
-	top: -170px;
-	left: 622px;
+.left {
+	border-left: 0px !important;
+}
 
+.right {
+	border-right: 0px !important;
 }
 
 .center {
-	background-color: inherit;
-	border: inherit;
 	border-radius: 100px; 
 	width: 180px;
 	height: 180px;
-	display: inline-block;
-	position: relative;
-	left: 270px;
-	top: -400px;
 }
 
-.player-one {
+.player {
 	background-color: #ffffff;
-	border: 1px solid #ffffff;
+	border: 1px solid #cfcfcf;
 	height: 20px;
 	width: 20px;
 	border-radius: 20px;
-	display: inline-block;
-	position: relative;
+	position: absolute;
+}
+
+.one {
 	left: 90px;
-	top: -400px;
+	top: 105px;
 }
 
-.player-two {
-   background-color: #ffffff;
-	border: 1px solid #ffffff;
-	height: 20px;
-	width: 20px;
-	border-radius: 20px;
-	display: block;
-	position: relative;
-	left: 150px;
-	top: -300px;
+.two {
+	left: 170px;
+	top: 300px;
 }
 
-.player-three {
-	background-color: #ffffff;
-	border: 1px solid #ffffff;
-	height: 20px;
-	width: 20px;
-	border-radius: 20px;
-	display: block;
-	position: relative;
-	left: 700px;
-	top: -500px;
+.three {
+	left: 400px;
+	top: 200px;
 }
